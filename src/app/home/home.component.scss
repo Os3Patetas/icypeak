@@ -1,0 +1,20 @@
+@font-face {
+  font-family: ubuntu;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media (max-width: 600px) {
+  .pad-r-resp {
+    padding-right: 0px !important;
+  }
+  .img-resp-bar {
+    width: 40% !important;
+    margin-right: 90px !important;
+  }
+}
+
+.container-items {
+  padding: 0px 0px;
+}
