@@ -9,3 +9,60 @@
   max-width: 1280px;
   padding: 0 130px;
 }
+
+.titleFoot {
+  font-size: 1em;
+  margin: 0 120px 24px 0;
+  line-height: 21px;
+}
+
+.subTittleFoot {
+  font-size: 0.875em;
+  margin-bottom: 12px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.iconRow {
+  display: flex;
+  flex-direction: row;
+  min-height: 130px;
+  cursor: pointer;
+}
+
+.iconFooter {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  height: 36px;
+  width: 36px;
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.footerRow {
+  border-top: 1px solid rgba(225, 228, 232, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+}
+.rowInfo {
+  margin-right: 16px;
+  font-size: 0.875em;
+  color: hsla(0, 0%, 100%, 0.8);
+  cursor: pointer;
+}
+
+.dot {
+  color: #24292e;
+  cursor: default;
+}
