@@ -5,20 +5,35 @@
         <div>
           <img
             [routerLink]="['/']"
-            style="width: 14%; cursor: pointer"
+            class="img-style"
             src="assets/logoWhite.png"
           />
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 nav-style">
         <div class="row">
-          <div class="col-md-3 navPages"></div>
-
-          <div [routerLink]="['/games']" class="col-md-3 navPages">Games</div>
-          <div class="col-md-3 navPages">Devs</div>
-          <div class="col-md-3 navPages">About Us</div>
+          <div [routerLink]="['/games']" class="col-4 navPages">Games</div>
+          <div class="col-4 navPages">Devs</div>
+          <div class="col-4 navPages">About Us</div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<!-- <ul class="nav justify-content-end fixed-top">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+      >Disabled</a
+    >
+  </li>
+</ul> -->
