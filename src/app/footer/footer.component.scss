@@ -24,6 +24,9 @@
   color: #c4c4c4;
   cursor: pointer;
 }
+.subTittleFoot:hover {
+  color: white;
+}
 
 .iconRow {
   display: flex;
@@ -46,6 +49,9 @@
   align-items: center;
   color: #000;
   transition: all 0.3s ease;
+}
+.iconFooter:hover {
+  background-color: #40e0d0;
 }
 
 .footerRow {
@@ -70,6 +76,16 @@
 
 .container-sized {
   padding: 48px 130px 0;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
 }
 
 @media screen and (max-width: 800px) {

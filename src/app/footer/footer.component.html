@@ -6,14 +6,22 @@
           <div class="col-md-5" style="display: flex">
             <div class="col-md-6 col-resp">
               <div class="titleFoot">Products</div>
-              <div class="subTittleFoot">Games</div>
-              <div class="subTittleFoot">Apps</div>
+              <div [routerLink]="['/games']" class="subTittleFoot">Games</div>
+              <div
+                [routerLink]="['/orbit']"
+                class="subTittleFoot"
+                style="color: #40e0d0"
+              >
+                Orb It
+              </div>
             </div>
             <div class="col-md-6 col-resp">
               <div class="titleFoot">Company</div>
-              <div class="subTittleFoot">Carrers</div>
-              <div class="subTittleFoot">Devs</div>
-              <div class="subTittleFoot">About Us</div>
+              <!-- <div [routerLink]="['/']" class="subTittleFoot">Carrers</div> -->
+              <div [routerLink]="['/devs']" class="subTittleFoot">Devs</div>
+              <div [routerLink]="['/aboutus']" class="subTittleFoot">
+                About Us
+              </div>
             </div>
           </div>
           <div class="col-md-3 offset-md-4 iconRow">
@@ -28,9 +36,22 @@
               ©2021 Icy Peak
             </div>
             <span class="rowInfo dot">&#8226;</span>
-            <div class="rowInfo">Terms</div>
+            <a
+              class="rowInfo"
+              href="https://policies.google.com/terms"
+              target="_blank"
+            >
+              Terms
+            </a>
+
             <span class="rowInfo dot">&#8226;</span>
-            <div class="rowInfo">Privacy</div>
+            <a
+              class="rowInfo"
+              href="https://policies.google.com/privacy"
+              target="_blank"
+            >
+              Privacy
+            </a>
           </div>
         </div>
       </div>

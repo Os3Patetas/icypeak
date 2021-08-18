@@ -27,7 +27,7 @@
   font-weight: 600;
 }
 
-.companyDescription {
+.subtitleDescription {
   font-size: 1em;
   line-height: 24px;
   margin-bottom: 120px;
@@ -47,9 +47,13 @@
   opacity: 70%;
 }
 
-.buttonGames {
+.btnCard {
   color: #3d84a8;
   border: 2px solid #3d84a8;
+}
+button:hover {
+  background-color: #3d84a8;
+  color: white;
 }
 
 .example img {
