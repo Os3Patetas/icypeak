@@ -12,6 +12,7 @@
 
 .headerStyle {
   display: flex;
+  user-select: none;
 }
 .borderBottom {
   border-bottom: 1px solid #e1e4e8;
@@ -21,10 +22,12 @@
 .navPages {
   font-weight: 500;
   cursor: pointer;
+  user-select: none;
 }
 .img-style {
   width: 14%;
   cursor: pointer;
+  user-select: none;
 }
 
 @media screen and (max-width: 800px) {

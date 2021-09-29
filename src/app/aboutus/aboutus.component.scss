@@ -8,6 +8,19 @@
 .container {
   max-width: 1280px;
   padding: 0 130px;
+  user-select: none;
+}
+
+.rowDescription {
+  display: flex;
+  text-align: center;
+}
+
+.titleDescription {
+  font-size: 3em;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #3d84a8;
 }
 
 .subtitleDescription {
@@ -15,6 +28,7 @@
   line-height: 24px;
   margin-bottom: 32px;
   color: #65696c;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {

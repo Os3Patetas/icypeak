@@ -8,6 +8,7 @@
 .container {
   max-width: 1280px;
   padding: 0 130px;
+  user-select: none;
 }
 
 .gameStudio {
@@ -114,7 +115,6 @@ button:hover {
   top: 0;
   left: 0;
   user-select: none;
-  witdh: 800px;
 }
 
 .jt__text {
