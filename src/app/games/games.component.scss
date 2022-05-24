@@ -18,6 +18,20 @@
   color: #65696c;
 }
 
+.gamesTitle {
+  font-size: 2.25em;
+  line-height: 48px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.gamesSub {
+  font-size: 1em;
+  line-height: 24px;
+  margin-bottom: 56px;
+  color: #65696c;
+}
+
 @media screen and (max-width: 800px) {
   .container {
     padding: 0 20px;

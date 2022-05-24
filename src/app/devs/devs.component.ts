@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-devs',
-  templateUrl: './devs.component.html',
-  styleUrls: ['./devs.component.scss']
+  selector: "app-devs",
+  templateUrl: "./devs.component.html",
+  styleUrls: ["./devs.component.scss"],
 })
 export class DevsComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
-
 }

@@ -6,6 +6,7 @@
           <img
             [routerLink]="['/']"
             class="img-style"
+            id="logoHeader"
             src="assets/logoWhite.png"
           />
         </div>
@@ -13,9 +14,23 @@
 
       <div class="col-md-5 nav-style">
         <div class="row">
-          <div [routerLink]="['/games']" class="col-4 navPages">Games</div>
-          <div [routerLink]="['/devs']" class="col-4 navPages">Team</div>
-          <div [routerLink]="['/aboutus']" class="col-4 navPages">About Us</div>
+          <div
+            [routerLink]="['/games']"
+            class="col-4 navPages"
+            id="gamesHeader"
+          >
+            Games
+          </div>
+          <div [routerLink]="['/devs']" class="col-4 navPages" id="teamHeader">
+            Team
+          </div>
+          <div
+            [routerLink]="['/aboutus']"
+            class="col-4 navPages"
+            id="aboutUsHeader"
+          >
+            About Us
+          </div>
         </div>
       </div>
     </div>
