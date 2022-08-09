@@ -4,7 +4,7 @@ let visualWait = 0;
 
 describe("Acessar HomePage", () => {
   beforeEach(() => {
-    cy.visitVood();
+    cy.visitVood("localhost");
     cy.wait(visualWait);
   });
   it("Teste Home Page", () => {
